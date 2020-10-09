@@ -1,15 +1,14 @@
 Package: myFirstPackage
-Title: What the Package Does (One Line, Title Case)
+Title: Adds Two Numbers Together
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Durand",
+           family = "Sinclair",
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: Demonstrates how to create a package with a simple sum function.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
